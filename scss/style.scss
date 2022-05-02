@@ -1,0 +1,147 @@
+@import "null.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    color: white;
+    font-family: "Roboto";
+}
+
+.forms{
+    background-image: url("../img/duotone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 210px;
+}
+
+[class *="__container"]{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.forms__main-flex{
+    display: flex;
+    column-gap: 111px;
+    
+    
+    
+    
+    .forms__text{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 324px;
+        row-gap: 46px;
+    }
+}
+/*FORM*/
+.forms__title{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.17;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 43px;
+}
+.forms__box{
+    background-color: #5D62B5;
+    padding: 76px 58px;
+    border-radius: 40px;
+}
+.forms__form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.forms__inputs{
+    margin-bottom: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    row-gap: 22px;
+    column-gap: 22.44px;
+}    
+    .forms__input{
+        width: 100%;
+        flex: 0 0 223px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        font-size: 16px;
+        letter-spacing: 0.15px;
+        line-height: 1.5;
+        color: white;
+        background-color: #5D62B5;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 17px 23.58px 15px 23.58px;
+        
+    }
+
+.forms__text-area{
+    margin-bottom: 30px;
+    
+    .forms__item{
+        color: white;
+        font-size: 16px;
+        letter-spacing: 0.15px;
+        line-height: 1s;
+        width: 100%;
+        max-width: 470px; 
+        min-width: 470px;
+        min-height: 180px;
+        max-height: 300px;
+        background-color: #5D62B5;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 17px 0px 5px 23px;
+        &::placeholder{
+            color: white;
+        }
+        }
+        
+    }
+
+.forms__button{
+    align-self: flex-end;
+    .forms__button-design{
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 2.0;
+        letter-spacing: 0.15px;
+        text-transform: uppercase;
+        padding: 14px 34px;
+        border-radius: 10px;
+        background-color: #F2726F;
+        transition: background-color 160ms ease-in 0s;
+        &:hover{
+            background-color: #b72b28;
+        }
+    }
+}
+
+
+/*  TEXT */
+.forms__sub-title{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    align-self: center;
+}
+.forms__number{
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 0.58;
+    text-align: center;
+    align-self: center;
+}
+.forms__signature{
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 1.37;
+    align-self: center;
+    text-align: center;
+}

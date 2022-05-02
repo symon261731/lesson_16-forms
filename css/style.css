@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  color: white;
+  font-family: "Roboto";
+}
+
+.forms {
+  background-image: url("../img/duotone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 210px;
+}
+
+[class*="__container"] {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.forms__main-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 111px;
+          column-gap: 111px;
+}
+
+.forms__main-flex .forms__text {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 324px;
+          flex: 0 0 324px;
+  row-gap: 46px;
+}
+
+/*FORM*/
+.forms__title {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.17;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 43px;
+}
+
+.forms__box {
+  background-color: #5D62B5;
+  padding: 76px 58px;
+  border-radius: 40px;
+}
+
+.forms__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.forms__inputs {
+  margin-bottom: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 22px;
+  -webkit-column-gap: 22.44px;
+          column-gap: 22.44px;
+}
+
+.forms__input {
+  width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 223px;
+          flex: 0 0 223px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 1.5;
+  color: white;
+  background-color: #5D62B5;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 17px 23.58px 15px 23.58px;
+}
+
+.forms__text-area {
+  margin-bottom: 30px;
+}
+
+.forms__text-area .forms__item {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 1s;
+  width: 100%;
+  max-width: 470px;
+  min-width: 470px;
+  min-height: 180px;
+  max-height: 300px;
+  background-color: #5D62B5;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 17px 0px 5px 23px;
+}
+
+.forms__text-area .forms__item::-webkit-input-placeholder {
+  color: white;
+}
+
+.forms__text-area .forms__item:-ms-input-placeholder {
+  color: white;
+}
+
+.forms__text-area .forms__item::-ms-input-placeholder {
+  color: white;
+}
+
+.forms__text-area .forms__item::placeholder {
+  color: white;
+}
+
+.forms__button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.forms__button .forms__button-design {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 2.0;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  padding: 14px 34px;
+  border-radius: 10px;
+  background-color: #F2726F;
+  -webkit-transition: background-color 160ms ease-in 0s;
+  transition: background-color 160ms ease-in 0s;
+}
+
+.forms__button .forms__button-design:hover {
+  background-color: #b72b28;
+}
+
+/*  TEXT */
+.forms__sub-title {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.forms__number {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 0.58;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.forms__signature {
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 1.37;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
